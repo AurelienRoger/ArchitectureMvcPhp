@@ -2,7 +2,7 @@
 
 require_once '../vendor/autoload.php';
 
-$router = new Altorouter();
+$router = new AltoRouter();
 
 //uniquement en local
 $router->setBasePath($_SERVER['BASE_URI']);

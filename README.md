@@ -22,7 +22,7 @@ Puis lancer dans le terminal composer dump-autoload
 
 ### 4 - symfony/var_dumper
 
-Pour installer Symfony var_dumper lancer la commande
+Pour installer Symfony var_dumper s'il n'est pas installé lors de composer install lancer la commande
 composer require symfony/var-dumper v6.0 si php >8
 
 
