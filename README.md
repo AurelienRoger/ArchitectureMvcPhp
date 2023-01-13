@@ -20,6 +20,9 @@ Dans le fichier composer.json, modifier "app" si souhaiter
 (Si nom modifié, penser à modifier les namespaces.)
 Puis lancer dans le terminal composer dump-autoload
 
+### 4 - symfony/var_dumper
 
+Pour installer Symfony var_dumper lancer la commande
+composer require symfony/var-dumper v6.0 si php >8
 
 
