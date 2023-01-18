@@ -10,7 +10,7 @@ $router->setBasePath($_SERVER['BASE_URI']);
 
 $router->map('GET', '/', [
     'action' => 'home',
-    'controller' => 'MainController'
+    'controller' => 'App\Controllers\MainController'
 ], 'home' );
 
 $match = $router->match();
