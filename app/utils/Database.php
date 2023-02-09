@@ -1,5 +1,8 @@
 <?php
 
+namespace App\Utils;
+use PDO;
+
 // classe qui permet la connexion à la BDD
 
 // Retenir son utilisation  => Database::getPDO()
